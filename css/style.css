@@ -5,7 +5,7 @@
 
 #game{
     width: 300px;
-    height: 500px;
+    height: 480px;
     border: 1px solid #000;
     margin: auto;
     overflow: hidden;
@@ -33,14 +33,14 @@
         top: -100px;
     }
     100%{
-        top: 500px;
+        top: 480px;
     }
 }
 
 #left, #right{
     width: 50%;
     position: absolute;
-    height: 500px;
+    height: 480px;
 }
 #right{
     left: 50%;
