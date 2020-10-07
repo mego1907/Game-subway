@@ -23,6 +23,7 @@ document.addEventListener("keydown", (e) => {
 
 var block = document.getElementById("block");
 var counter = 0;
+
 block.addEventListener("animationiteration", () => {
   var random = Math.floor(Math.random() * 3);
   left = random * 100;
@@ -44,3 +45,6 @@ setInterval(() => {
 document.getElementById("left").addEventListener("touchstart", moveLeft());
 document.getElementById("right").addEventListener("touchstart", moveRight());
 
+window.addEventListener("click", () => {
+  setTimeout("location.reload(true);",1);
+})
