@@ -42,9 +42,10 @@ setInterval(() => {
   }
 }, 1);
 
-document.getElementById("left").addEventListener("touchstart", moveLeft());
-document.getElementById("right").addEventListener("touchstart", moveRight());
+document.getElementById("left").addEventListener("touchstart", moveLeft);
+document.getElementById("right").addEventListener("touchstart", moveRight);
 
-window.addEventListener("click", () => {
+/* window.addEventListener("click", () => {
   setTimeout("location.reload(true);",1);
 })
+ */
