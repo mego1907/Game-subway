@@ -42,5 +42,5 @@ setInterval(() => {
 }, 1);
 
 document.getElementById("left").addEventListener("touchstart", moveLeft());
-document.getElementById("right").addEventListener("touchend", moveRight());
+document.getElementById("right").addEventListener("touchstart", moveRight());
 
